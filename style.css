@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
+:root{
+    --mainColor: forestgreen;
+    --secondaryColor: rgb(117, 243, 117);
+
+    --mainText: white;
+    --secondaryText: black;
+    --borderColor: white;
+
+    --linkColor: navy;
+    --linkHover: gray;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.welcome-note{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(autofit, minmax(300px, 500px));
+}
+.small-container{
+    padding: 50px 50px;
+    max-width: 1080px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    gap: 50px;
+    background-color: var(--secondaryColor);
+    border-radius: 20px 20px 0 0;
+}
+.social-media span{
+	color: #1DA1F2;
+	font-size: 2rem;
+	display: block;
+}
+.work-perience{
+	flex-basis: 25%;
+	padding: 30px;
+	margin: 0 auto;
+}
+.work-perience ul{
+	list-style-type: none;
+}
+.experience{
+	background-color: yellow;
+	max-width: 900px;
+	color: black;
+}
+.cards{
+	flex-basis: 25%;
+	background-color: gray;
+	border-radius: 10px;
+}
+.cards img{
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+big, small{
+	display: block;
+	padding-top: 10px;
+	text-align: center;
+}
+.image-section{
+    flex-basis: 50%;
+}
+.career-summary{
+    flex-basis: 50%;
+}
+.career-summary h4{
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+.image-section img{
+    width: 100%;
+}
+.section1{
+    background-color: var(--mainColor);
+    color: var(--mainText);
+	padding-bottom: 50px;
+}
+.section2{
+    background-color: var(--secondaryColor);
+	padding: 70px 20px;
+	padding-top: 50px;
+}
+.referees{
+	padding: 20px 70px;
+	border: 2px solid white;
+}
+.social-media{
+	padding: 20px 70px;
+	border: 2px solid white;
+}
+form{
+	background: gray;
+	width: 600px;
+	margin: 0 auto;
+	padding: 20px 70px;
+}
+input{
+	display: grid;
+	margin-top: 20px;
+}
+textarea {
+	margin-top: 20px;
+}
